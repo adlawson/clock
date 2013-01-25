@@ -1,0 +1,37 @@
+{
+  "name": "newtonjs-clock",
+  "description": "Clock based event emitting",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "keywords": [
+    "clock",
+    "event",
+    "emitter",
+    "ticker"
+  ],
+
+  "author": {
+    "name": "Andrew Lawson",
+    "url": "http://adlawson.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newtonjs/clock.git"
+  },
+
+  "main": "./src/clock.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --ui tdd --reporter spec test"
+  },
+
+  "dependencies": {
+    "newtonjs-event": "git://github.com/newtonjs/event.git#master"
+  },
+
+  "devDependencies": {
+    "chai": "1.4.x",
+    "mocha": "1.8.x",
+    "sinon": "1.5.x"
+  }
+}
