@@ -20,9 +20,10 @@
     "url": "https://github.com/newtonjs/clock.git"
   },
 
-  "main": "./src/clock.js",
+  "main": "./lib/clock.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --ui tdd --reporter spec test"
+    "test": "./node_modules/.bin/mocha --compilers coffee:coffee-script --ui tdd --reporter spec test",
+    "compile": "./node_modules/.bin/coffee -co lib src"
   },
 
   "dependencies": {
@@ -31,6 +32,7 @@
 
   "devDependencies": {
     "chai": "1.4.x",
+    "coffee-script": "1.4.x",
     "mocha": "1.8.x",
     "sinon": "1.5.x"
   }
