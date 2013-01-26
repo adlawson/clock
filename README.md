@@ -2,7 +2,7 @@
 
 Clock based event emitting.
 
-**Version:** *0.1.0*<br/>
+**Version:** *0.2.0*<br/>
 **Build status:** [![Build Status][travis-status]][travis]
 
 
