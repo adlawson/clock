@@ -11,7 +11,7 @@ Clock based event emitting.
 This library was originally intended for other purposes but was deemed insufficient.
 
 It isn't reliable enough for time-sensitive operations because it is merely built ontop of `setTimeout`.
-It *is* still useful, however, for polling operations and other time independent operations.
+It *is* still useful, however, for polling and other time independent applications.
 
 
 ### Usage ###
