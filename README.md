@@ -1,4 +1,4 @@
-# newtonjs/clock #
+# Clock #
 
 Clock based event emitting.
 
@@ -6,10 +6,18 @@ Clock based event emitting.
 **Build status:** [![Build Status][travis-status]][travis]
 
 
+### About ###
+
+This library was originally intended for other purposes but was deemed insufficient.
+
+It isn't reliable enough for time-sensitive operations because it is merely built ontop of `setTimeout`.
+It *is* still useful, however, for polling operations and other time independent operations.
+
+
 ### Usage ###
 
 ```js
-var clock = require('newtonjs-clock');
+var clock = require('clock');
 
 clock.tock(function () {
     console.log('tock');
@@ -32,7 +40,7 @@ package manager, but you can still add it to your `package.json`
 ```json
 {
   "dependencies": {
-    "newtonjs-clock": "git://github.com/newtonjs/clock.git#master"
+    "clock": "git://github.com/adlawson/clock.git#master"
   }
 }
 ```
@@ -51,11 +59,11 @@ $ npm run-script compile  # Compile JavaScript
 ```
 
 
-### Licence ###
+### License ###
 The content of this library is released under the **MIT License** by **Andrew Lawson**.<br/>
 You can find a copy of this license at http://www.opensource.org/licenses/mit
 
 
 <!-- Links -->
-[travis]: https://travis-ci.org/newtonjs/clock
-[travis-status]: https://travis-ci.org/newtonjs/clock.png?branch=master
+[travis]: https://travis-ci.org/adlawson/clock
+[travis-status]: https://travis-ci.org/adlawson/clock.png?branch=master
