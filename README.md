@@ -8,7 +8,7 @@ Clock based event emitting.
 
 ### About ###
 
-This library was originally intended for other purposes but was deemed insufficient.
+This library was originally intended for [other purposes][newtonjs] but was deemed insufficient.
 
 It isn't reliable enough for time-sensitive operations because it is merely built ontop of `setTimeout`.
 It *is* still useful, however, for polling and other time independent applications.
@@ -67,3 +67,4 @@ You can find a copy of this license at http://www.opensource.org/licenses/mit
 <!-- Links -->
 [travis]: https://travis-ci.org/adlawson/clock
 [travis-status]: https://travis-ci.org/adlawson/clock.png?branch=master
+[newtonjs]: https://github.com/newtonjs
